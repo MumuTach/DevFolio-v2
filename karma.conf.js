@@ -33,8 +33,9 @@ module.exports = function (config) {
         { type: 'text-summary' }
       ]
     },
-    reporters: ['progress', 'kjhtml'],
+    reporters: ['progress'],
     browsers: ['FirefoxHeadless','ChromeHeadless'],
-    restartOnFileChange: true
+    singleRun: true, 
+    autoWatch: false
   });
 };
