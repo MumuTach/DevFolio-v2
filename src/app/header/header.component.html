@@ -39,6 +39,12 @@
                     RESUME
                 </a>
             </li>
+            <li>
+                <a href="/myBlog" [ngClass]="{ 'active': activeLink === 'myBlog' }" (click)="setActiveLink('myBlog')">
+                    <!-- <mat-icon class="menu-icon-small">play_for_work</mat-icon>  -->
+                    BLOG
+                </a>
+            </li>
         </ul>
     </nav>
 </header>

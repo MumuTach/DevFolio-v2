@@ -1,12 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-    selector: 'app-home',
-    templateUrl: './home.component.html',
-    styleUrl: './home.component.css',
+    selector: 'app-description',
+    templateUrl: './description.component.html',
+    styleUrl: './description.component.css',
     standalone: false
 })
-export class HomeComponent implements OnInit {
+export class DescriptionComponent implements OnInit {
   animatedText = '';
 
   private fullText = "I am a fullstack developer";

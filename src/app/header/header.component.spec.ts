@@ -42,9 +42,9 @@ describe('HeaderComponent', () => {
     expect(component.isMenuOpen).toBeFalse();
   });
 
-  it('should have a navigation menu with 5 items', () => {
+  it('should have a navigation menu with 6 items', () => {
     const navItems: DebugElement[] = fixture.debugElement.queryAll(By.css('nav ul li'));
-    expect(navItems.length).toBe(5);
+    expect(navItems.length).toBe(6);
   });
 
   it('should contain the correct icons and labels for each menu item', () => {
