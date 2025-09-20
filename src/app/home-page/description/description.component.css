@@ -28,7 +28,7 @@
     flex: 2;
   }
   
-  .text-container h2 {
+  #greetings {
     margin: 0;
     padding-bottom: 10px;
     font-family: "Comic Sans MS", "Comic Sans", cursive;
@@ -39,7 +39,7 @@
     color: rgb(180, 74, 180);
   }
   
-  .text-container p {
+  .text-container h1 {
     margin: 0;
     font-size: 55px;
     font-family: "Comic Sans MS", "Comic Sans", cursive;
@@ -52,7 +52,6 @@
 
   .learn-more {
     text-align: left;
-    margin-top: 20px;
     font-family: "Comic Sans MS", "Comic Sans", cursive;
   }
   
