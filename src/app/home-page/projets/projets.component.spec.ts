@@ -41,7 +41,7 @@ describe('ProjetsComponent', () => {
 
   it('should have a "Code" button linking to the correct GitHub repository', () => {
     const codeButton: HTMLElement = fixture.debugElement.query(By.css('.button-row a')).nativeElement;
-    expect(codeButton.getAttribute('href')).toBe('https://github.com/MumuTach/DEVFOLIO.git');
+    expect(codeButton.getAttribute('href')).toBe('https://github.com/MumuTach/DevFolio-v2');
     expect(codeButton.textContent).toContain('Code');
   });
 });
