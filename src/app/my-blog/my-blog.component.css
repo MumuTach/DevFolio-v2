@@ -1,0 +1,89 @@
+.blog{
+    padding: 3.75rem 0rem;
+    position: relative;
+}
+
+.blog h2 {
+    font-size: 1.875rem;
+    margin-bottom: 0.625rem;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+
+    display: inline;
+    position: relative;
+    z-index: 1;
+}
+
+.title h2::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0.313rem; 
+  width: 90%;
+  height: 1rem; 
+  background-color: #f29894; 
+  z-index: -1; 
+}
+
+.title {
+    max-width: 55rem;
+    margin: 0 auto; 
+}
+
+.title p {
+    font-size: 1.25rem;
+    margin-bottom: 3rem;
+    color: #555;
+}
+
+.section-heading {
+  margin-bottom: 1.875rem;
+}
+
+.section-heading p {
+  margin-bottom: 0.625rem;
+}
+
+.date-bar {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.25rem;
+}
+
+.section-heading-date {
+  font-weight: bold;
+  margin-right: 0.625rem; 
+  white-space: nowrap;
+  color: #d9534f;
+}
+
+.section-heading-line {
+  flex-grow: 1; 
+  height: 0.125rem;
+  background-color: #d9534f;
+}
+
+.section-heading-title {
+  font-size: 1.4em;
+  color: #222;
+  margin-bottom: 0.313rem;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+.section-heading-content {
+  font-size: 1.25rem;
+  color: #555;
+  line-height: 1.5;
+}
+
+.section-heading p {
+  margin-bottom : 0rem;
+}
+
+.section-heading-image img {
+  width: 50rem;       
+  height: 35rem; 
+  display: block;
+  margin: 0 auto;  
+}
+
+
