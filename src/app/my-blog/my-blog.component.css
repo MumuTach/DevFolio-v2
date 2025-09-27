@@ -35,8 +35,8 @@
     color: #555;
 }
 
-.section-heading {
-  margin-bottom: 1.875rem;
+.section-heading, .section-wcag {
+  margin-bottom: 2.2rem;
 }
 
 .section-heading p {

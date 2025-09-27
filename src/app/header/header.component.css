@@ -12,6 +12,8 @@ header {
 .site-name{
     margin: 0;
     font-size: 45px;
+    text-decoration: none;
+    color: white;
 }
 
 .left {
