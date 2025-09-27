@@ -1,8 +1,11 @@
 
 <header id="header" class="header">
     <div class="left">
-        <span class="site-name" aria-label="Murielle">Murielle</span>
+        <a routerLink="/home" aria-label="Murielle, site logo" class="site-name">
+            <span>Murielle</span>
+        </a>
     </div>
+    
     <div class="spacer"></div>
     <nav class="right">
         <div class="menu-icon" (click)="toggleMenu()">
@@ -10,7 +13,7 @@
         </div>
         <ul [class.show]="isMenuOpen || isLargeScreen">
             <li>
-                <a href="#home" [ngClass]="{ 'active': activeLink === 'home' }" (click)="setActiveLink('home')">
+                <a href="#home" [attr.aria-current]="activeLink === 'home' ? 'page' : null" [ngClass]="{ 'active': activeLink === 'home' }" (click)="setActiveLink('home')">
                     <mat-icon class="menu-icon-small">home</mat-icon>
                     HOME
                 </a>
@@ -40,8 +43,8 @@
                 </a>
             </li>
             <li>
-                <a routerLink="/myBlog" href="/myBlog" [ngClass]="{ 'active': activeLink === 'myBlog' }" (click)="setActiveLink('myBlog')">
-                    <!-- <mat-icon class="menu-icon-small">play_for_work</mat-icon>  -->
+                <a routerLink="/myBlog" [ngClass]="{ 'active': activeLink === 'myBlog' }" (click)="setActiveLink('myBlog')">
+                    <mat-icon class="menu-icon-small"> notes</mat-icon>
                     BLOG
                 </a>
             </li>
