@@ -124,6 +124,10 @@
   .material-icons {
     font-size: 25px;
   }
+
+  h1:focus {
+    outline: none;
+  }
   
   @media (max-width: 768px) {
     .connect-box, .image-container {

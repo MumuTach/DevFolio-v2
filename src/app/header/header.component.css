@@ -108,10 +108,15 @@ header {
 
   .menu-icon-small {
     display: inline-block;
+    font-size: 20px !important;
   }
 
   .mat-icon {
     font-size: 25px;
+  }
+
+  a {
+    font-size: 0.8rem;
   }
 
 }
@@ -134,6 +139,11 @@ header {
 
   .menu-icon-small {
     display: inline-block; 
+    font-size: 13px !important;
+  }
+
+  a {
+    font-size: 0.6rem;
   }
 
   .mat-icon {
