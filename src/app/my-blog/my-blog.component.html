@@ -1,13 +1,13 @@
 <div id="blog" class="blog">
     <div class="title">
-        <h2>My Blog</h2>
+        <h1 class="main-title" tabindex="-1">My Blog</h1>
         <p>My blog is the place where I think out loud. As I continue learning web development, I discovered the vast field of digital accessibility. This made me realize that my own portfolio wasn’t truly accessible. Since then, I’ve set myself the goal of learning and following WCAG 2.0 guidelines as much as possible to make it more inclusive. Join me on this journey toward a more accessible web for everyone.✨</p>
         <div class="section-heading">
             <div class="date-bar">
-                <span class="section-heading-date">18th septembre 2025</span>
+                <span class="section-heading-date">septembre 18th, 2025</span>
                 <span class="section-heading-line"></span>
             </div>
-            <h3 class="section-heading-title">Page title hierarchy</h3>
+            <h2 class="section-heading-title">Page title hierarchy</h2>
             <p class="section-heading-content">
                 According to WCAG guidelines, it is essential to organize page headings in a logical and coherent manner to clearly structure the content. A page should start with an H1 representing the main title, followed by H2 for major sections, H3 for subsections, and so on, without skipping levels, to ensure a clear and understandable hierarchy. Each section should begin with an appropriate heading, which facilitates navigation, especially for users of screen readers, and allows the content’s organization to be quickly grasped. Maintaining this hierarchy consistently across the site improves accessibility and orientation. To ensure that the structure of my headings follows these best practices, I used the HeadingsMaps plugin, which allows you to instantly visualize the hierarchy of a page’s headings and verify its compliance.
             </p>
@@ -18,13 +18,34 @@
         </div>
         <div class="section-wcag">
             <div class="date-bar">
-                <span class="section-heading-date">27th septembre 2025</span>
+                <span class="section-heading-date">septembre 27th, 2025</span>
                 <span class="section-heading-line"></span>
             </div>
-            <h3 class="section-heading-title">Why is it important to manage your focus deposit properly?</h3>
+            <h2 class="section-heading-title">Why is it important to manage your focus deposit properly?</h2>
             <p class="section-heading-content">
-                According to WCAG 2.0, It is important to put a focus on an element of the page because the containt of the page can then be navigated more predictably and that is important for people with disabilities.
-                Let's go, let's manage the focus on our pages. <b>But first, how do we know which element to focus on?</b>
+                According to WCAG 2.0, it is important to set focus on an element of the page because the content can then be navigated more predictably, which is essential for people with disabilities.
+                Let’s manage the focus on our pages! But first, <b>how do we know which element to focus on ?</b><br>
+                <span class="onfocus-examples">
+                    <b>After a page loads or reloads</b>
+                    The focus should usually go to the main heading (h1) or a landmark region (like main).
+                    This allows screen reader users to immediately know what the page is about.
+                </span>
+                <span class="onfocus-examples">
+                    <b>After a dialog, modal, or popup opens</b>
+                    The focus should move inside the first meaningful interactive element of the dialog (like the close button or the first input field).
+                </span>
+                <span classs="onfocus-examples">
+                    <b>After an action triggers navigation</b>
+                    For example, in a Single Page Application (SPA), when the route changes, the focus should be placed on the new page’s main heading so users don’t get lost.
+                </span>
+                <span class="onfocus-examples">
+                    <b>After submitting a form with errors</b>
+                    Move the focus to the first error message or invalid field to help the user fix the problem quickly.
+                </span>
+                <span class="onfocus-examples">
+                    <b>When closing a dialog</b>
+                    Return the focus to the element that opened it, so the user doesn’t lose their place.
+                </span>
             </p>
         </div>
     </div>
