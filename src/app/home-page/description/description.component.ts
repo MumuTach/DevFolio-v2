@@ -17,13 +17,6 @@ export class DescriptionComponent implements OnInit {
     this.typeText();
   }
 
-  ngAfterViewInit() {
-    const mainHeading = document.getElementById('animated-text');
-    if (mainHeading) {
-      mainHeading.focus();
-    }
-  }
-
   private typeText() {
     if (this.currentIndex < this.fullText.length) {
       this.animatedText += this.fullText.charAt(this.currentIndex);

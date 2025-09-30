@@ -150,13 +150,13 @@
       margin: 0;
     }
   
-    .home {
-      padding: 80px;
+    .description {
+      padding: 20px;
     }
   
     .text-container {
       width: 100%;
-      padding: 0px;
+      padding: 15px;
       box-sizing: border-box;
     }
   
@@ -184,7 +184,7 @@
   }
 
 @media (min-width: 768px) and (max-width: 1000px) {
-  .home {
+  .description {
     padding: 160px;
   }
   
