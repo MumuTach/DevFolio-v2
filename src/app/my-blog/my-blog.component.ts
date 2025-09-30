@@ -8,4 +8,11 @@ import { Component } from '@angular/core';
 })
 export class MyBlogComponent {
 
+  ngAfterViewInit() {
+    const mainTitle = document.getElementById('main-title');
+    if (mainTitle) {
+      mainTitle.focus();
+    }
+  }
+
 }
