@@ -44,6 +44,9 @@ jobs:
       - name: build angular
         run: npx ng build --configuration production --base-href "./"
 
+      - name: add CNAME
+        run: echo "murielledev.com" > ./dist/browser/CNAME
+
       - name: deploy to github pages
         uses: peaceiris/actions-gh-pages@v4
         with:
