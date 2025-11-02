@@ -217,20 +217,15 @@
   }
 
   .about h2, .Reading h2, .skills h2 {
-    font-family: 'Inter', sans-serif
-  }
-
-  .reading-container { gap: 16px; }
-
-  .text-div {
-    flex: 0 0 calc(50% - 8px);
-    width: calc(50% - 8px);
-    margin: 10px;
-    box-sizing: border-box;
+    font-family: Helvetica, "Comic Sans MS", "Comic Sans", cursive;
   }
 }
 
 @media (max-width: 768px) {
+  .text-div {
+    flex: 1 1 calc(40% - 40px);
+    margin: 10px; 
+  }
 
   .Reading h2, .skills h2, .about h2 {
     font-family: 'Inter', sans-serif;
