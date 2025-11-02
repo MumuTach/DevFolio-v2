@@ -152,7 +152,7 @@
   
     .description {
       padding: 20px;
-      min-height: 100vh;
+      min-height: 50vh;
     }
   
     .text-container {
@@ -186,7 +186,7 @@
 @media (min-width: 768px) and (max-width: 1000px) {
   .description {
     padding: 160px;
-    min-height: 100vh;
+    min-height: 50vh;
   }
   
   .image-container {

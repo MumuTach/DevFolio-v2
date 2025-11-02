@@ -222,14 +222,11 @@
 }
 
 @media (max-width: 768px) {
-  /*.text-div {
-    flex: 1 1 calc(48% - 40px);
-    margin: 10px; 
-  }*/
+  .reading-container { gap: 16px; }
 
   .text-div {
-    flex: 0 0 calc(50% - 20px);
-    width: calc(50% - 20px);
+    flex: 0 0 calc(50% - 8px);
+    width: calc(50% - 8px);
     margin: 10px;
     box-sizing: border-box;
   }
