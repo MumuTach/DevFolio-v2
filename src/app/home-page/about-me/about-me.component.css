@@ -208,9 +208,10 @@
     margin-bottom: 0px;
  }
 
-  .text-div {
-    flex: 1 1 calc(48% - 40px);
-    margin: 10px; 
+  .reading-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
   }
 
   .reading-body, .reading-footer a{
@@ -222,14 +223,21 @@
   }
 
   .about h2, .Reading h2, .skills h2 {
-    font-family: Helvetica, "Comic Sans MS", "Comic Sans", cursive;
+    font-family: 'Inter', sans-serif
   }
 }
 
 @media (max-width: 768px) {
-  .text-div {
+  /*.text-div {
     flex: 1 1 calc(48% - 40px);
     margin: 10px; 
+  }*/
+
+  .text-div {
+    flex: 0 0 calc(50% - 20px);
+    width: calc(50% - 20px);
+    margin: 10px;
+    box-sizing: border-box;
   }
 
   .Reading h2, .skills h2, .about h2 {
