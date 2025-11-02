@@ -152,6 +152,7 @@
   
     .description {
       padding: 20px;
+      min-height: 100vh;
     }
   
     .text-container {
@@ -177,7 +178,7 @@
     }
 
     .learn-more {
-      font-family: "Helvetica";
+      font-family: 'Inter', sans-serif;
       font-size: 15px;
     }
   }
@@ -185,6 +186,7 @@
 @media (min-width: 768px) and (max-width: 1000px) {
   .description {
     padding: 160px;
+    min-height: 100vh;
   }
   
   .image-container {

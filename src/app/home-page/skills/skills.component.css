@@ -105,12 +105,12 @@
     }
 
     .skills h2 {
-      font-family: Helvetica, "Comic Sans MS", "Comic Sans", cursive;
+      font-family: 'Inter', sans-serif;
     }
   }
   
   @media (max-width: 768px) {
     .skills h2 {
-      font-family: "Helvetica";
+      font-family: 'Inter', sans-serif;
     }
   }
