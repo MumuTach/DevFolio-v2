@@ -219,9 +219,7 @@
   .about h2, .Reading h2, .skills h2 {
     font-family: 'Inter', sans-serif
   }
-}
 
-@media (max-width: 768px) {
   .reading-container { gap: 16px; }
 
   .text-div {
@@ -230,6 +228,9 @@
     margin: 10px;
     box-sizing: border-box;
   }
+}
+
+@media (max-width: 768px) {
 
   .Reading h2, .skills h2, .about h2 {
     font-family: 'Inter', sans-serif;
