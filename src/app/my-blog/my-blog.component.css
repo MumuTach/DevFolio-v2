@@ -39,10 +39,6 @@
   margin-bottom: 2.2rem;
 }
 
-.section-heading p {
-  margin-bottom: 0.625rem;
-}
-
 .date-bar {
   display: flex;
   align-items: center;
@@ -80,6 +76,14 @@
   margin-top: 1.2rem;
   margin-left: 1.7rem;
   flex-direction: column;
+}
+
+.section-heading-content span.no-margin-left {
+  margin-left: 0;
+}
+
+.bottom {
+  background-color: blue;
 }
 
 

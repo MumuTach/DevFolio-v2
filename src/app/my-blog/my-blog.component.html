@@ -24,27 +24,61 @@
             <h2 class="section-heading-title">Why is it important to manage your focus deposit properly?</h2>
             <p class="section-heading-content">
                 According to WCAG 2.0, it is important to set focus on an element of the page because the content can then be navigated more predictably, which is essential for people with disabilities.
-                Let’s manage the focus on our pages! But first, <b>how do we know which element to focus on ?</b><br>
-                <span class="onfocus-examples">
+                Let’s manage the focus on our pages! But first, <b>how do we know which element to focus on ?</b>
+                <span>
                     <b>After a page loads or reloads</b>
                     The focus should usually go to the main heading (h1) or a landmark region (like main).
                     This allows screen reader users to immediately know what the page is about.
                 </span>
-                <span class="onfocus-examples">
+                <span>
                     <b>After a dialog, modal, or popup opens</b>
                     The focus should move inside the first meaningful interactive element of the dialog (like the close button or the first input field).
                 </span>
-                <span classs="onfocus-examples">
+                <span>
                     <b>After an action triggers navigation</b>
                     For example, in a Single Page Application (SPA), when the route changes, the focus should be placed on the new page’s main heading so users don’t get lost.
                 </span>
-                <span class="onfocus-examples">
+                <span>
                     <b>After submitting a form with errors</b>
                     Move the focus to the first error message or invalid field to help the user fix the problem quickly.
                 </span>
-                <span class="onfocus-examples">
+                <span>
                     <b>When closing a dialog</b>
                     Return the focus to the element that opened it, so the user doesn’t lose their place.
+                </span>
+            </p>
+        </div>
+        <div class="section-wcag">
+            <div class="date-bar">
+                <span class="section-heading-date">November 2nd, 2025</span>
+                <span class="section-heading-line"></span>
+            </div>
+            <h2 class="section-heading-title">Image text alternatives</h2>
+            <p class="section-heading-content">
+                Today, I realized how important it is to use 
+                <b>text alternatives</b> (often called <em>alt text</em>) for 
+                <b>digital accessibility</b>. Text alternatives make it possible to 
+                <b>describe the content and function of images</b> 
+                for people who can’t see them — for example, users of screen readers. 
+                According to the 
+                <abbr title="Web Content Accessibility Guidelines">WCAG</abbr> published by the 
+                <abbr title="World Wide Web Consortium">W3C</abbr>, providing meaningful alt text directly addresses 
+                <b>Success Criterion 1.1.1 – Non-text Content</b>. 
+                This criterion states that 
+                <q>all non-text content must have a text alternative that serves the same purpose.</q>
+                In practice, this means that:
+                <span ><b>Informative images</b> should have a clear description of what they represent.</span>
+                <span>
+                    <b>Decorative images</b> should be ignored by assistive technologies 
+                    (for example, by using alt="").
+                </span>
+                <span>
+                    <b>Icons or buttons</b> should have text alternatives that describe their function (like “Search” or “Close”).
+                </span>
+                <span class="no-margin-left">
+                    Realizing this made me understand that alt text isn’t just a technical detail — 
+                    it’s a key element of digital inclusion, ensuring that everyone, regardless of ability, 
+                    can access and interact with online content in an equitable way.
                 </span>
             </p>
         </div>
