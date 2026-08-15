@@ -42,7 +42,7 @@ jobs:
         run: npm install
 
       - name: build angular
-        run: npx ng build --configuration production --base-href "./"
+        run: npx ng build --configuration production --base-href "/"
 
       - name: add CNAME
         run: echo "murielledev.com" > ./dist/browser/CNAME
@@ -52,6 +52,7 @@ jobs:
         with:
           github_token: ${{ secrets.GH_PAGES_TOKEN }}
           publish_dir: ./dist/browser
+          cname: murielledev.com
 
 
 
