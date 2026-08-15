@@ -11,7 +11,7 @@
 @include mat.app-background();
 
 // Define the theme object.
-$MonPortFolio-Front-theme: mat.define-theme((
+$MyPortfolio-theme: mat.define-theme((
   color: (
     theme-type: light,
     primary: mat.$azure-palette,
@@ -26,12 +26,12 @@ $MonPortFolio-Front-theme: mat.define-theme((
 // Alternatively, you can import and @include the theme mixins for each component
 // that you are using.
 :root {
-  @include mat.all-component-themes($MonPortFolio-Front-theme);
+  @include mat.all-component-themes($MyPortfolio-theme);
 }
 
 // Comment out the line below if you want to use the pre-defined typography utility classes.
 // For more information: https://material.angular.io/guide/typography#using-typography-styles-in-your-application.
-// @include mat.typography-hierarchy($MonPortFolio-Front-theme);
+// @include mat.typography-hierarchy($MyPortfolio-theme);
 
 // Comment out the line below if you want to use the deprecated `color` inputs.
-// @include mat.color-variants-backwards-compatibility($MonPortFolio-Front-theme);
+// @include mat.color-variants-backwards-compatibility($MyPortfolio-theme);
